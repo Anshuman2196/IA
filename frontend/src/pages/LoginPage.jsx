@@ -24,7 +24,7 @@ const LoginPage = () => {
 			className='max-w-md w-full bg-gray-800 bg-opacity-50 backdrop-filter backdrop-blur-xl rounded-2xl shadow-xl overflow-hidden'
 		>
 			<div className='p-8'>
-				<h2 className='text-3xl font-bold mb-6 text-center bg-gradient-to-r from-blue-400 to-indigo-500 text-transparent bg-clip-text'>
+				<h2 className='text-3xl font-bold mb-6 text-center bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text'>
 					Welcome Back
 				</h2>
 
@@ -46,7 +46,7 @@ const LoginPage = () => {
 					/>
 
 					<div className='flex items-center mb-6'>
-						<Link to='/forgot-password' className='text-sm text-blue-400 hover:underline'>
+						<Link to='/forgot-password' className='text-sm text-cyan-400 hover:underline'>
 							Forgot password?
 						</Link>
 					</div>
@@ -55,7 +55,7 @@ const LoginPage = () => {
 					<motion.button
 						whileHover={{ scale: 1.02 }}
 						whileTap={{ scale: 0.98 }}
-						className='w-full py-3 px-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-bold rounded-lg shadow-lg hover:from-blue-600 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900 transition duration-200'
+						className='w-full py-3 px-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold rounded-lg shadow-lg hover:from-cyan-600 hover:to-blue-700 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2 focus:ring-offset-gray-900 transition duration-200'
 						type='submit'
 						disabled={isLoading}
 					>
