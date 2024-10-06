@@ -5,7 +5,7 @@ import SignUpPage from "./pages/SignUpPage";
 import LoginPage from "./pages/LoginPage";
 import EmailVerificationPage from "./pages/EmailVerificationPage";
 import DashboardPage from "./pages/DashboardPage";
-import App from "./pages/App";
+import AppPage from "./pages/AppPage";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 import ResetPasswordPage from "./pages/ResetPasswordPage";
 
@@ -106,7 +106,7 @@ function App() {
 					path='/app'
 					element={
 						<ProtectedRoute>
-							<App />
+							<AppPage />
 						</ProtectedRoute>
 					}
 				/>
