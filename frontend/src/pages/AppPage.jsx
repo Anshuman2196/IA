@@ -1,6 +1,6 @@
-const App = () => {
+const AppPage = () => {
   return(
     <h1><h1/>
   );
 }
-export default App
+export default AppPage
